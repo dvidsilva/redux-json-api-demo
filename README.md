@@ -169,6 +169,6 @@ import { setEndpointHost, setEndpointPath } from 'redux-json-api';
 ```
 
 ## Finally
-This should show you how to add redux-json-api to your stack and get you started. Have a look at the console and observe how the `state` object changes as we configure the api, start to read form the api and successfully receive a response.
+This should show you how to add redux-json-api to your stack and get you started. Have a look at the console and observe how the `state` object changes as we configure the api, start to read from the api and successfully receive a response.
 
 I've included a `posts.json` in this repo at `/api/v1/` which will show what the API server output would look like for this example. It includes comments as well as posts, you should be able to add these objects in `mapStateToProps` and then display them in `TodoList.render`.
